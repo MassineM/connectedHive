@@ -1,9 +1,9 @@
-# Puissance 4 _Connect 4_
-Java basic algorithm based console player versus player connect 4 game.
+# Ruche Connectée _Connected Hive_
+Part of a bigger project, the main task was to create a bee farm data exploiting web platform.
+Structured as such: API: Node.JS, APP: NuxtJS, Vue and Vuetify.
 -----------------------------------------------------
 ### Documentation:
   https://drive.google.com/drive/folders/1g0ODbKA1sXpZgCBRrVvVCgBVV_1fkJmu?usp=sharing
-
 
 ### How to compile:
   See documentation
