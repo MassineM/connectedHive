@@ -3,7 +3,7 @@ Part of a bigger project, the main task was to create a bee farm data exploiting
 Structured as such: API: Node.JS, APP: NuxtJS, Vue and Vuetify.
 -----------------------------------------------------
 ### Documentation:
-  https://drive.google.com/drive/folders/1g0ODbKA1sXpZgCBRrVvVCgBVV_1fkJmu?usp=sharing
+  https://drive.google.com/drive/folders/1k9_FnIu6ucIIPnRjDPJ7chG0rWKPI3CY?usp=sharing
 
 ### How to compile:
   See documentation
