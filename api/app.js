@@ -3,6 +3,8 @@ const app = express();
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+require('dotenv').config({path: __dirname + '/.env'});
+const DB_PASSWORD = process.env.DB_PASSWORD;
 
 let connectDB = async () => {
   var options = {
@@ -11,7 +13,7 @@ let connectDB = async () => {
   };
   await mongoose
     .connect(
-      `mongodb+srv://root:uzA%3FsmMQ37QAU%26NV@cluster0.aqhe3.mongodb.net/test`,
+      `mongodb+srv://gfox841:`+DB_PASSWORD+`@cluster0.d6nmlhd.mongodb.net/?retryWrites=true&w=majority`,
       options
     )
     .then(() => {

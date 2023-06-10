@@ -33,7 +33,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style lang="css">
 //style to overwrite
 .notification_container {
   margin: 0 !important;

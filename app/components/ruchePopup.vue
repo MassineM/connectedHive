@@ -25,7 +25,6 @@
                     clearable
                     deletable-chips
                     solo
-                    required
                   ></v-autocomplete>
                 </v-col>
                 <v-col cols="4">
@@ -125,24 +124,22 @@
                     <v-list-item-content justify="center">
                       <v-list-item-title>Cadre {{ i }}</v-list-item-title>
                       <v-list-item-subtitle
-                        v-text="`Date de dépôt : ${cadre.dateDepot}`"
-                      >
+                        >Date de dépôt : ${cadre.dateDepot}
                       </v-list-item-subtitle>
                       <v-list-item-subtitle
-                        v-text="`Ciré : ${cadre.ciree}`"
-                      ></v-list-item-subtitle
+                        >Ciré : ${cadre.ciree}</v-list-item-subtitle
                       ><v-list-item-subtitle
-                        v-text="`Miel : ${cadre.miel}`"
-                      ></v-list-item-subtitle>
+                        >Miel : ${cadre.miel}</v-list-item-subtitle
+                      >
                       <v-list-item-subtitle
-                        v-text="`Pollen : ${cadre.pollen}`"
-                      ></v-list-item-subtitle
+                        >Pollen : ${cadre.pollen}</v-list-item-subtitle
                       ><v-list-item-subtitle
-                        v-text="`Couvain : ${cadre.couvain}`"
-                      ></v-list-item-subtitle>
+                        >Couvain : ${cadre.couvain}</v-list-item-subtitle
+                      >
                       <v-list-item-subtitle
-                        v-text="`État du Cadre : ${cadre.etatCadre}`"
-                      ></v-list-item-subtitle>
+                        >État du Cadre :
+                        ${cadre.etatCadre}</v-list-item-subtitle
+                      >
                     </v-list-item-content>
                     <v-list-item-action>
                       <v-btn
